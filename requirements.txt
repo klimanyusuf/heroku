@@ -1,0 +1,16 @@
+import streamlit as st
+pandas
+matplotlib
+streamlit == 1.2.0
+seaborn
+numpy
+sklearn
+fsspec
+ipython
+psycopg2
+sqlalchemy
+sql
+boto3
+statsmodels.api
+pip == 21.3.1
+woe
