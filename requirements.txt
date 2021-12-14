@@ -1,4 +1,4 @@
-import streamlit
+streamlit
 pandas
 matplotlib
 streamlit == 1.2.0
