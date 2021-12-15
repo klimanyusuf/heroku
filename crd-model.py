@@ -196,11 +196,11 @@ def dummy_creation(df, columns_list):
     return df
 
 # apply to our final four categorical variables
-X_train = dummy_creation(X_train, ['is_approved', 'is_reverted', 'is_rejected','grade'])
+X_train = dummy_creation(X_train, ['is_approved', 'is_reverted', 'is_rejected','grade','contacted'])
 
 
 col_to_drop(X_test, drop_columns_list)
-X_test = dummy_creation(X_test, ['is_approved','grade', 'is_reverted','is_rejected'])
+X_test = dummy_creation(X_test, ['is_approved','grade', 'is_reverted','is_rejected','contated'])
 # reindex the dummied test set variables to make sure all the feature columns in the train set are also available in the test set
 X_test = X_test.reindex(labels=X_train.columns, axis=1, fill_value=0)
 
