@@ -42,7 +42,6 @@ from scipy.stats import chi2_contingency
 df=pd.read_csv('https://afexdataset.s3.eu-central-1.amazonaws.com/loan_data.csv',error_bad_lines=False, engine="python")
 pd.options.display.max_columns = None
 
-df = pd.read_csv('C://Dataset//loan_data.csv')
 pd.options.display.max_columns = None
 # get a list of columns that have more than 80% null values
 
