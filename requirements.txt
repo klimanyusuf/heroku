@@ -1,7 +1,6 @@
 streamlit
 pandas
 matplotlib
-streamlit == 1.2.0
 seaborn
 numpy
 sklearn
@@ -12,5 +11,5 @@ sqlalchemy
 sql
 boto3
 statsmodels
-pip == 21.3.1
+pip 
 woe
